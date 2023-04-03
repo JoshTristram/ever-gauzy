@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ['docker build . -t gauzy-webapp -f .deploy/webapp/Dockerfile', 'docker build . -t gauzy-api -f .deploy/api/Dockerfile']
+
+[start]
+cmd = 'docker run -p 127.0.0.1:4200:4200/tcp --env API_BASE_URL=http://localhost:3000 --env API_HOST=10.0.0.1 gauzy-webapp && docker run -p 127.0.0.1:3000:3000/tcp gauzy-api'
