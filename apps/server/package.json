@@ -20,7 +20,7 @@
 	"scripts": {},
 	"devDependencies": {
 		"@electron/rebuild": "^3.2.10",
-		"electron": "20.2.0",
+		"electron": "22.3.25",
 		"electron-builder": "^23.6.0",
 		"electron-installer-dmg": "^4.0.0",
 		"electron-packager": "^17.1.1",
@@ -67,7 +67,7 @@
 		"pg-query-stream": "^4.2.4",
 		"rxjs": "^7.4.0",
 		"sqlite3": "^5.1.5",
-		"squirrelly": "^8.0.8",
+		"squirrelly": "^9.0.0",
 		"twing": "^5.0.2",
 		"typeorm": "0.3.7",
 		"typeorm-aurora-data-api-driver": "^2.4.4",
